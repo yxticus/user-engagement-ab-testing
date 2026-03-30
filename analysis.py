@@ -23,3 +23,16 @@ print(data.groupby("group")["time_spent"].mean())
 
 print("\nClick Rate:")
 print(data.groupby("group")["clicked"].mean())
+
+import matplotlib.pyplot as plt
+
+# Visualization
+data.groupby("group")["time_spent"].mean().plot(kind="bar")
+plt.title("Average Time Spent by Group")
+plt.ylabel("Time Spent")
+plt.show()
+
+data.groupby("group")["clicked"].mean().plot(kind="bar")
+plt.title("Click Rate by Group")
+plt.ylabel("Click Rate")
+plt.show()
