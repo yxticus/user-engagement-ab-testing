@@ -1,0 +1,21 @@
+# User Engagement A/B Testing
+
+## Overview
+This project simulates an A/B test to analyze user engagement and evaluate which version of a product performs better.
+
+## What This Does
+- Splits users into Group A and Group B
+- Simulates user behavior (time spent and clicks)
+- Compares performance between groups
+
+## Key Metrics
+- Average time spent
+- Click-through rate
+
+## Insight
+Group B shows improved engagement, demonstrating how A/B testing helps guide product decisions.
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
